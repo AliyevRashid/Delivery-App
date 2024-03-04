@@ -11,7 +11,7 @@ const ElementsList = ({ route, navigation }) => {
             <ScrollView>
                 <TextInput style={styles.textInput} placeholder='Search' />
                 {elements.filter(e => e.category === categoryName).map((element, index) => (
-                    <Pressable key={index} onPress={() => navigation.navigate('ElementDetail', { elementName: element.name })}>
+                    <Pressable key={index} style={{width:'auto',height:'80%'}} onPress={() => navigation.navigate('ElementDetail', { elementName: element.name })}>
                         <ElementCard
                             title={element.name}
                             description={`${element.name} elements`}

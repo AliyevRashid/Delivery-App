@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         height:'85%',
         // paddingVertical:'1%',
         paddingHorizontal:'1%',
-        marginVertical:'2%',
+        marginVertical:'15%',
         marginLeft:'30%'
     },
     imageContainer:{

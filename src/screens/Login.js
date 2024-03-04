@@ -8,7 +8,7 @@ const Login = ({ navigation }) => {
     const [email, setEmail] = useState('');
 
     const submitLogin = () => {
-        const user = users.find(u => u.email === email);
+        const user = users.find(u => u.email === email && u.password === password);
         if (user) {
             navigation.navigate("Categories");
         }
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     titleContainer: {
         height: '100%',
         width: '50%',
-        backgroundColor: 'black',
+        backgroundColor: '#384358',
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 25
     },
     inputDataContainer: {
-        backgroundColor: 'green',
+        backgroundColor: '#0F969C',
         borderWidth: '0.02%',
         alignItems: 'center',
         justifyContent: 'center',
@@ -90,11 +90,12 @@ const styles = StyleSheet.create({
     },
 
     inputNameStyle: {
-        marginVertical: '5%'
+        marginVertical: '5%',
+        fontSize:16
     },
     submitButton: {
         borderRadius: 10,
-        backgroundColor: 'blue',
+        backgroundColor: '#473E66',
         marginHorizontal: '5%',
         marginVertical: '10%',
         paddingVertical: '2%',

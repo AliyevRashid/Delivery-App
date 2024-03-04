@@ -1,8 +1,8 @@
 
     export const users=[
       {
-        email: "user1@example.com",
-        password: "password1"
+        email: "u1",
+        password: "p1"
       },
       {
         email: "user2@example.com",
@@ -44,19 +44,19 @@ export const elements = [
   {
     name: "Whole Milk",
     price: 2.5,
-    imageUrl: "https://example.com/milk1.jpg",
+    imageUrl: "https://top-fon.com/uploads/posts/2023-01/1674769459_top-fon-com-p-fon-dlya-prezentatsii-na-temu-moloko-96.jpg",
     category: "Milk"
   },
   {
     name: "Skim Milk",
     price: 2.0,
-    imageUrl: "https://example.com/milk2.jpg",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/95245723606749.563263f8cda0d.jpg",
     category: "Milk"
   },
   {
     name: "Almond Milk",
     price: 3.0,
-    imageUrl: "https://example.com/milk3.jpg",
+    imageUrl: "https://www.myweightlossfun.com/wp-content/uploads/2017/06/bigstock-131517764.jpg",
     category: "Milk"
   },
   {
@@ -76,25 +76,25 @@ export const elements = [
   {
     name: "Whole Wheat Bread",
     price: 2.0,
-    imageUrl: "https://example.com/bread1.jpg",
+    imageUrl: "https://proprikol.ru/wp-content/uploads/2019/07/kartinki-vkusnogo-hleba-7.jpg",
     category: "Bread"
   },
   {
     name: "White Bread",
     price: 1.5,
-    imageUrl: "https://example.com/bread2.jpg",
+    imageUrl: "https://proprikol.ru/wp-content/uploads/2021/11/hleb-krasivye-kartinki-15-1024x699.jpg",
     category: "Bread"
   },
   {
     name: "Multigrain Bread",
     price: 2.5,
-    imageUrl: "https://example.com/bread3.jpg",
+    imageUrl: "https://i.pinimg.com/originals/33/ea/1d/33ea1da23660919b3ee47168ab298561.jpg",
     category: "Bread"
   },
   {
     name: "Baguette",
     price: 3.0,
-    imageUrl: "https://example.com/bread4.jpg",
+    imageUrl: "https://attuale.ru/wp-content/uploads/2018/10/mangermediterraneen-5-raisons-arreter-pain-blanc.jpg",
     category: "Bread"
   },
   {

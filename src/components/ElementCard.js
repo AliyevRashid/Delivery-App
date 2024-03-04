@@ -36,12 +36,12 @@ const styles = StyleSheet.create({
         height:'85%',
         // paddingVertical:'1%',
         paddingHorizontal:'1%',
-        marginVertical:'2%',
+        marginVertical:'7%',
         marginLeft:'30%'
     },
     imageContainer:{
         width:'100%',
-        height:'60%',
+        height:'70%',
         borderRadius:15,
         // paddingVertical:'1%',
         // paddingHorizontal:'1%',

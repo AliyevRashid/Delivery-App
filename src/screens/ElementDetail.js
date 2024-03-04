@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import ElementCard from '../components/ElementCard'; 
 import { elements } from '../UserData/data';
 
@@ -8,7 +8,7 @@ const ElementDetail = ({ route }) => {
     const element = elements.find(e => e.name === elementName); 
 
     return (
-        <View>
+        <View style={styles.container}>
             {element && ( 
                 <ElementCard 
                     title={element.name}
@@ -23,5 +23,13 @@ const ElementDetail = ({ route }) => {
         </View>
     );
 };
+
+const styles =StyleSheet.create({
+    container:{
+        height:'90%',
+        width:'90%'
+    }
+
+})
 
 export default ElementDetail;
